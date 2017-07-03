@@ -130,6 +130,7 @@ header a{
     header{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -139,7 +140,7 @@ header a{
 
     #main_nav{
       display: flex;
-
+      justify-content: flex-end;
     }
 
     #main_nav a{
